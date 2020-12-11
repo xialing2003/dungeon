@@ -1,0 +1,12 @@
+file1=open('主角数据.txt','r+')
+total_score=file1.readline()
+game_times=file1.readline()
+highest_score=file1.readline()
+finsh_times=file1.readline()
+
+#print(total_score)
+#print(game_times)
+#print(highest_score)
+#print(finsh_times)
+file1.close()
+#print(file1.closed)
